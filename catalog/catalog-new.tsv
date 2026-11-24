@@ -1,4 +1,199 @@
 IZSTORE3
+app	iz2s-cheese	nro	0.8.7	iz2s-cheese	byizmysh	IZ2S Cheese	IZMYSH	Tools	Browse and install Switch 2 homebrew.
+repository	https://github.com/byizmysh/iz2s-cheese
+file	1279419	09d99bc8b935ec0618874f999d063fafb313f91c3cd8a84676e0eb9a7328aa80	launcher.nro
+github	https://github.com/byizmysh/iz2s-cheese/releases/download/v0.8.7/iz2s-cheese.nro
+app	kaiplayer	nro	1.5.0	kaiplayer	mizuiroame	KaiPlayer	mizuiroame	Media	Listen to music stored on your SD card with a native audio player made for Switch 2.
+repository	https://github.com/mizuiroame/kaiplayer
+file	20689642	67e7103a1c6aaa4675322d1fea1f26b051988077b2ac8701be47214995c7358b	launcher.nro
+github	https://github.com/mizuiroame/kaiplayer/releases/download/v1.5.0/KaiPlayer.nro
+app	sw2nes	nro	2.12.2	SW2NES	Rodpad	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
+repository	https://github.com/Rodpad/SW2NES
+file	22202374	661f55474fa9d7dc9dc2f0f63902147ffbebf1022f6471b72fa1991137a1f33a	launcher.nro
+github	https://github.com/Rodpad/SW2NES/releases/download/v2.12.2/sw2nes.nro
+app	checkpoint	nro	5.3.0-switch2-1	Checkpoint	wowilookgood	Checkpoint	FlagBrew / wowilookgood	Tools	Back up and restore game saves from a console interface.
+repository	https://github.com/wowilookgood/Checkpoint
+file	21280085	aa11bf9567b5469bd8a2479e2060c8be1c4beb3f82cb4370233f68e5cab58fc2	launcher.nro
+github	https://github.com/wowilookgood/Checkpoint/releases/download/v5.3.0-switch2-1/Checkpoint-hen.nro
+app	pksm	nro	10.4.0-switch2-1	PKSM	wowilookgood	PKSM	FlagBrew / wowilookgood	Tools	Manage compatible Pokemon game saves and organize local collections.
+repository	https://github.com/wowilookgood/PKSM
+file	28274964	5d406215feba4c33483829855b21eaad18be5e2142b0ab3204dc2e3d63a2f860	launcher.nro
+github	https://github.com/wowilookgood/PKSM/releases/download/10.4.0-switch2-1/PKSM-hen.nro
+app	nxgallery	nro	2.0.0-switch2-1	NXGallery	wowilookgood	NXGallery	iUltimateLP / wowilookgood	Media	View console captures and transfer them to a browser over your local network.
+repository	https://github.com/wowilookgood/NXGallery
+file	20421866	86574515d2a5d61cbbb44411503ac888a2725375d9d864c8f0cec0efd3e9e0a2	launcher.nro
+github	https://github.com/wowilookgood/NXGallery/releases/download/2.0.0-switch2-1/NXGallery-hen.nro
+app	akira	nro	0.3.2	akira	chiaki-ng	Akira	Chiaki-ng contributors	Media	Stream from your own PlayStation over Remote Play.
+repository	https://github.com/chiaki-ng/akira-ounce
+file	24902240	820cf53c1b9774963f3ff1efff5d432708b165b0972964aa76f5c615c4b4ba85	launcher.nro
+github	https://github.com/chiaki-ng/akira-ounce/releases/download/v0.3.2/akira.nro
+app	ounce-donut	nro	1.0	ounce-donut	Rix565	Ounce Donut	Rix565	Games	A small animated ASCII donut demo for Switch 2.
+repository	https://github.com/Rix565/ouncedonut
+file	24994521	8f8c1cd79a2b21f0d57ae349b971bd35ebee8cf15400da62fe22208e8f07882f	launcher.nro
+github	https://github.com/Rix565/ouncedonut/releases/download/v1.0/Donut.nro
+app	kaitube	nro	0.0.2-beta	KaiTube	Sank-kab	KaiTube	Sank-kab	Media	Experimental native YouTube client for Switch 2.
+repository	https://github.com/Sank-kab/KaiTube
+file	47938914	6c6b57dbf16629d864135761f31c9f4410fdef9ffd66db7ff0af47a08e2c5c6a	launcher.nro
+github	https://github.com/Sank-kab/KaiTube/releases/download/v0.0.2-beta/KaiTube-beta0.0.2.nro
+app	internal-speakers	nro	1.0.0-ounce	internal-speakers	souldbminerr	Force Internal Speakers	souldbminerr / paulocode	Tools	Route sound to the built-in speakers while the console is docked.
+repository	https://github.com/souldbminerr/switch_internal_speakers_nro
+file	364711	4c2c1eab0f6114122a5216938ff027d70c7e27ded3ab728b35317ba09d1d9bff	launcher.nro
+github	https://github.com/souldbminerr/switch_internal_speakers_nro/releases/download/v1.0.0-ounce/switch_internal_speakers_nro.nro
+app	green-nx	nro	1.0.31pre1-switch2	green-nx	davidkalil10	Green-NX	davidkalil10 / atjike	Media	Cloud gaming client for Switch 2. Requires a compatible account and internet connection.
+repository	https://github.com/davidkalil10/green-nx_switch-2
+file	22575167	11bea13202099c530f1b4e7bc9a58300430e2de4e6b3d213af460639fe51d9c4	launcher.nro
+github	https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro
+app	dolphin	nro	1.0.0	dolphin	MegaCadeDev	Dolphin	MegaCadeDev / Dolphin team	Emulators	Early test port of Dolphin for Switch 2: GameCube and Wii emulation with Vulkan and JIT. Supply your own games. USB drives are not supported; performance and graphics vary by game.
+repository	https://github.com/MegaCadeDev/dolphin-nx2
+file	44676744	e0a502e6e43d67b0c7394d0ee649d7c0a07f8c9c4b55300042f0c8c761224de7	launcher.nro
+github	https://github.com/MegaCadeDev/dolphin-nx2/releases/download/v1.0.0/dolphin.nro
+app	mgba	nro	1.0.0	mgba	jackspence7	mGBA	jackspence7 / mGBA team	Emulators	Native mGBA port for Switch 2 homebrew. Play your own GBA games with sound, save states and screen modes. GB/GBC support is present but was not tested by the port author.
+repository	https://github.com/jackspence7/GBA-kaiHEN
+file	18192371	d36444da81498d6cae058745117f659a3cfb3d2fffb609bfbcf05a4a98c820ae	launcher.nro
+github	https://github.com/jackspence7/GBA-kaiHEN/releases/download/v1.0.0/mgba.nro
+app	kaizhar	nro	2126.2-kaizhar3	kaizhar	wowilookgood	Kaizhar	wowilookgood / Azahar team	Emulators	Unofficial Azahar 3DS emulator for Switch 2 with Vulkan, JIT and several screen layouts. Put your own decrypted games in /switch/Kaizhar/roms. First launches compile shaders; encrypted CIA files are refused.
+repository	https://github.com/wowilookgood/kaizhar
+file	34447882	33ced15bae8b53cfbaaacca011175b3c41863dd8185b12dbab896e6e967cbb31	launcher.nro
+github	https://github.com/wowilookgood/kaizhar/releases/download/2126.2-kaizhar3/kaizhar.nro
+app	openrct2	nro	1.0-ounce	openrct2	souldbminerr	OpenRCT2	souldbminerr / OpenRCT2 team	Games	Switch 2 port of OpenRCT2 with mouse and gamepad controls. Requires your own RollerCoaster Tycoon data in /switch/openrct2/rct2/ (or rct1/ for RCT1). The download contains the engine, not the original game.
+repository	https://github.com/souldbminerr/OpenRCT2-Switch
+file	34373336	9c129e383c5f48186ca46a10e7ed1c221e4057b8e4943bff01a8a2d18a7782f4	launcher.nro
+github	https://github.com/souldbminerr/OpenRCT2-Switch/releases/download/v1.0-ounce/openrct2.nro
+app	90dns-tester	nro	1.0.5-Ounce	90DNS-Tester	souldbminerr	90DNS Tester	souldbminerr / 90DNS Tester contributors	Tools	Run DNS checks on Switch 2 to inspect Nintendo domain blocking. Displays test results; it does not change your console network settings.
+repository	https://github.com/souldbminerr/90DNS-Tester
+file	444366	a33cd6925822b5b890a1a7366ad2e433dd49e240508cd82f8f726465fad83316	launcher.nro
+github	https://github.com/souldbminerr/90DNS-Tester/releases/download/1.0.5-Ounce/Switch_90DNS_tester.nro
+app	nces	nro	release	nces	PennyLoafer5	Nic Cage Eats Stuff	PennyLoafer / Cart1416	Games	Switch 2 port of Nic Cage Eats Stuff. A small arcade homebrew game published as a standalone NRO.
+repository	https://github.com/PennyLoafer5/nces-switch2
+file	22086845	92325e17e71faa6d8f74a9e941c0b82b19118b31d0024c2131ebd3ec6b8fa384	launcher.nro
+github	https://github.com/PennyLoafer5/nces-switch2/releases/download/release/nces-switch2.nro
+app	bad-apple	nro	bad_apple_ounce	bad-apple	souldbminerr	Bad Apple!	souldbminerr	Media	Bad Apple audiovisual demo, using the dedicated Ounce build for Switch 2. This is the Switch 2 release, not the separate Switch 1 binary.
+repository	https://github.com/souldbminerr/bad-apple-switch
+file	59259489	8f097312ab4ebe073aa70edf6830a085255e8880bfa351befedb01321e6f9c02	launcher.nro
+github	https://github.com/souldbminerr/bad-apple-switch/releases/download/bad_apple_ounce/bad-apple-switch.nro
+app	cemu-nx2	nro	1.4.1	Cemu-NX2	TheAJLive	Cemu-NX2	TheAJLive / Cemu team	Emulators	Wii U emulator for Switch 2 under kaiHEN. Requires your own games and about 5.5 GiB of homebrew heap. USB drives and SaltyNX are not supported.
+repository	https://github.com/TheAJLive/Cemu-NX2
+file	89892006	2e3faff528d0928bf48c5bd48743d62c31e58a45dd4d5b8fe080804a2c81643d	launcher.nro
+github	https://github.com/TheAJLive/Cemu-NX2/releases/download/v1.4.1/cemu-switch2.nro
+app	dekopon	nro	0.9.1	dekopon	Olmectron	Dekopon for Switch 2	Olmectron / Dekopon contributors	Emulators	Nintendo 3DS emulator, using the Switch 2 port by Olmectron. Supply your own games. Shader caches rebuild after updating; asynchronous shader compilation is experimental.
+repository	https://github.com/Olmectron/dekopon
+repository	https://github.com/Olmectron/dekopon
+file	32831532	7828ce82d466ade272260f1351dd7a9f82e64e9e51f409782280e73c413ced9c	launcher.nro
+github	https://github.com/Olmectron/dekopon/releases/download/v0.9.1/dekopon.nro
+app	sw2transfer	nro	2.0.0	SW2Transfer	Rodpad	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
+repository	https://github.com/Rodpad/SW2Transfer
+file	21369909	00573c9755e5726c3ed0804bc62e18cd5a4be696fe5edf4e3e2fd84bd568f730	launcher.nro
+github	https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.0/sw2transfer.nro
+app	moader	nro	4.0.0	Moader	H644b	Moader	H644b	Tools	Mod manager with console and browser interfaces. Requires a compatible Moader resident backend and matched patched HEN, installed separately. This download installs the console app only; follow the repository installation guide.
+repository	https://github.com/H644b/Moader
+file	3073629	ceb8f9684ec906dc8e29f127abbb64b348b6185e295b190b488bc6f0f044c535	launcher.nro
+github	https://github.com/H644b/Moader/releases/download/v4.0.0/Moader.nro
+app	brewstore	nro	1.3.1	brewstore	HerXayah	Brewstore	HerXayah	Tools	Homebrew catalog and downloader for Switch 2. Requires the upstream hbmenu/brewloader setup. This download installs brewstore.nro only; follow the repository instructions for the remaining setup.
+repository	https://github.com/HerXayah/brewstore
+file	967718	475481a2b2c938456d193e5233d41afe955f901c62912948ca5523530d1da963	launcher.nro
+github	https://github.com/HerXayah/brewstore/releases/download/1.3.1/brewstore.nro
+app	blacklist-tool	nro	1.1.0	blacklist-tool	s8n	blacklist-tool	s8n	Tools	System utility to inspect or modify the Switch 2 FunctionBlackList. Write operations persist across reboots and may affect Nintendo service access. Follow the upstream instructions. This is the latest release with a published Switch 2 NRO.
+repository	https://github.com/s8n/blacklist-tool
+file	477381	4f49a482668fa2560188c4cb409534e9c802a3e273d2e9a4fc057966f3b7d381	launcher.nro
+github	https://github.com/s8n/blacklist-tool/releases/download/v1.1.0/blacklist-tool-switch2.nro
+app	switchfin-nx2	nro	1.0.3	switchfin-nx2	Lucaspec72	Switchfin NX2	Lucaspec72 / Switchfin contributors	Media	Native Jellyfin client using the Switch 2 port by Lucaspec72. Requires access to your Jellyfin server. This is the dedicated Switch 2 build.
+repository	https://github.com/Lucaspec72/switchfin
+file	42790523	3b21d33743423385313411fcc890932ce186f846ee3752d782dbcf6428b53e9e	launcher.nro
+github	https://github.com/Lucaspec72/switchfin/releases/download/1.0.3/SwitchfinNX2.nro
+app	nx-torrent-player	nro	0.6.0	NX-torrent-player	shodowlo	NX Torrent Player	shodowlo	Media	Native media player for Switch 2 with Stremio-style streaming features. This entry uses the dedicated NX2 binary; an internet connection and upstream setup may be required.
+repository	https://github.com/shodowlo/NX-torrent-player
+file	43724259	88ebc6e64373d5017d2f29ae04b44caca1dd8fbebe0fb7c0b806769735c9456c	launcher.nro
+github	https://github.com/shodowlo/NX-torrent-player/releases/download/v0.6.0/NX2-torrent-player.nro
+app	switch2now	nro	1.3.0	Switch2NOW	davidkalil10	Switch2NOW	davidkalil10 / Blade-Punisher	Media	Native GeForce NOW client for Switch 2. Requires a GeForce NOW account, a supported region and an internet connection. Uses the dedicated Switch 2 build.
+repository	https://github.com/davidkalil10/Switch2NOW
+file	47569574	2591acba44f99645a9b1de80eac8aef7ae7a8d70083492fd0a4014b8ef38eeb3	launcher.nro
+github	https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro
+app	sw2snes	nro	1.0.1	SW2SNES	Rodpad	SW2SNES	Rodpad / Snes9x contributors	Emulators	SNES emulator for Switch 2 using Snes9x, with save states, rewind and shaders. Supply your own games in /roms/snes or select another folder in Settings. Version 1.0.1 is the current published release.
+repository	https://github.com/Rodpad/SW2SNES
+file	21748484	ed1e8a246bc2ea9ba8a5772206fcbed83fdcc73b186dbc131b9be2494880c2fb	launcher.nro
+github	https://github.com/Rodpad/SW2SNES/releases/download/v1.0.1/sw2snes.nro
+app	stremnx2	nro	0.3.2	StremNX2	davidkalil10	StremNX2	davidkalil10 / denpingus	Media	Unofficial Stremio client using the dedicated Switch 2 build. Requires your own configured add-ons and network access. Launch with full application memory; see the repository for setup.
+repository	https://github.com/davidkalil10/StremNX2
+file	41582595	f333ee836ba596e8fa596eaa854e09c0b00efdc859f14604394c7adeb5d47fd7	launcher.nro
+github	https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro
+app	nhse	nro	4.1.0	nhse	sh00kapic	NHSE	sh00kapic / NHSE contributors	Tools	Animal Crossing: New Horizons save editor for Switch 2. Close the game before editing; saves are backed up when opened and written when you confirm Save. Includes console and SD save editing; some desktop features are unavailable.
+repository	https://github.com/sh00kapic/nhse
+file	9690681	2fb828a310f23dbdeb327dee73f8adf65967902a7a34ae6ca8341eefdaa1fa3c	launcher.nro
+github	https://github.com/sh00kapic/nhse/releases/download/v4.1.0/nhse.nro
+app	kairadio	nro	1.5.0	kairadio	mizuiroame	KaiRadio	mizuiroame	Media	Internet radio player for Switch 2 under kaiHEN. Browse stations and save favourites. Requires a network connection; configuration is stored next to the application.
+repository	https://github.com/mizuiroame/kairadio
+file	21802561	bd97407eb0f4366ae387227b097efe39a4991994023b31a56a9d63c2d0b77797	launcher.nro
+github	https://github.com/mizuiroame/kairadio/releases/download/v1.5.0/KaiRadio.nro
+app	abreloaded	nro	1.0.2	abreloaded	githubuser77777	Angry Birds Reloaded wrapper	githubuser77777 / aks796	Games	Native Android compatibility wrapper for Angry Birds Reloaded 2.2.16218. Requires your own APK libraries, assets and cursor images in /switch/abreloaded, plus kaiHEN ldr:ro support. This download installs only the wrapper; follow the repository setup guide.
+repository	https://github.com/githubuser77777/abreloaded_nx2
+file	18048453	9f276f2ab731a15db118ffd46d79b1086dd4f1dd7376ddabc95df1e4ee63e482	launcher.nro
+github	https://github.com/githubuser77777/abreloaded_nx2/releases/download/1.0.2/abreloaded_nx.nro
+app	nxengine-evo	nro	2.6.5-oz	nxengine-evo	ya-v-ia	NXEngine-evo (Switch 2)	ya-v-ia / NXEngine-evo contributors	Games	Switch 2 port of the open-source NXEngine-evo engine for Cave Story. This entry uses the Ounce build. Follow the repository for game resources and controls; user data is stored relative to the NRO location.
+repository	https://github.com/ya-v-ia/ounce-nxengine-evo
+file	58013138	47d456b3b221db54b6a2f8ada0d0c56549f90f9d0a8808df1ce1bb440256e30f	launcher.nro
+github	https://github.com/ya-v-ia/ounce-nxengine-evo/releases/download/v2.6.5-oz/Ounce-NXEngine-Evo-2.6.5.nro
+app	super-moonlight-nx2	nro	1.0.0	super-moonlight-nx2	davidkalil10	Super Moonlight NX2	davidkalil10 / Azkali	Media	Stream PC games from Sunshine over LAN or the built-in Tailscale tunnel. Requires a Sunshine host and kaiHEN 20261114c or newer. Select H.264 in Settings before streaming; the release notes report an AV1 startup issue.
+repository	https://github.com/davidkalil10/super-moonlight-nx2
+file	13822737	732efef01dae852adfffe2dfee9f027deaa38f2a3167501b1ca53654aef98328	launcher.nro
+github	https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro
+app	game-vault	nro	0.4.5	game-vault	flex36ty	Game Vault	flex36ty / Game Vault contributors	Tools	Game and save backup, restore and file transfer utility for Switch 2. Requires the separately installed compatible kaiHEN fsipc-v1 runtime and SD helpers. This download updates only the app; follow the upstream runtime guide. Full backup/restore verification is still pending upstream.
+repository	https://github.com/flex36ty/switch2-gamevault
+repository	https://github.com/flex36ty/switch2-gamevault
+file	2289863	d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43	launcher.nro
+github	https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro
+app	punktfunk	nro	0.1.0	punktfunk	d0vere	PunktFunk	d0vere / punktfunk contributors	Media	Stream PC games to Switch 2 over your home network. Requires the punktfunk host on your PC, kaiHEN and full application memory. Handheld mode is recommended by the port author; pair with the PIN shown by your host.
+repository	https://github.com/d0vere/punktfunk-client-switch2
+file	41140096	7f8a533dd07cdd7a338cd0b1612982ccb4819d03cee1c7664349a030b2c28457	launcher.nro
+github	https://github.com/d0vere/punktfunk-client-switch2/releases/download/v0.1.0/punktfunk-switch2.nro
+app	kaidump	nro	1.0.5	KaiDump	BlafKing	KaiDump	BlafKing	Tools	Export your installed games, updates, DLC, ExeFS and RomFS to SD, FTP or USB. Requires kaiHEN 20261117b or newer and sufficient storage. Experimental; read the repository requirements before use.
+repository	https://github.com/BlafKing/KaiDump
+repository	https://github.com/BlafKing/KaiDump
+file	19828265	7bc870f90065c4ce5786b0ba11a0a5258bd6cd7189fe57ad0d67723740d5cff0	launcher.nro
+github	https://github.com/BlafKing/KaiDump/releases/download/1.0.5/KaiDump.nro
+app	ppsspp-davidkalil	nro	1.1.9	ppsspp-davidkalil	davidkalil10	PPSSPP (davidkalil10)	davidkalil10 / PPSSPP contributors	Emulators	PSP emulator port for Switch 2 with Vulkan and kaiHEN JIT. Supply your own games and launch with full application memory. This is davidkalil10s fork; the separate XITRIX fork adds experimental GameShare. Optional frame generation needs your own Lossless.dll.
+repository	https://github.com/davidkalil10/ppsspp-nx2
+file	67165694	5ada96c313055aa56391c0468efc72ea46a33944dea8436e420318b33a45948f	launcher.nro
+github	https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro
+app	ppsspp-xitrix	nro	0.1.0	ppsspp-xitrix	XITRIX	PPSSPP (XITRIX GameShare)	XITRIX / PPSSPP contributors	Emulators	Separate PPSSPP port for Switch 2 under kaiHEN. Includes experimental GameShare for local multiplayer with a second, unmodified Switch. Supply your own PSP games; see upstream for supported GameShare setup. This is distinct from davidkalil10s fork.
+repository	https://github.com/XITRIX/ppsspp-nx2
+file	66816508	9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3	launcher.nro
+github	https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro
+app	sw2ps2	nro	1.1.0	SW2PS2	Rodpad	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
+repository	https://github.com/Rodpad/SW2PS2
+file	43681225	789b7d05fe7aaf3435be4cdd4dc01693edc88bf00f29ed8ec315fce147cb4737	launcher.nro
+github	https://github.com/Rodpad/SW2PS2/releases/download/v1.1.0/sw2ps2.nro
+app	vita3k-nx2	nro	1.4.1	Vita3K-nx2	davidkalil10	Vita3K-nx2	davidkalil10 / Vita3K contributors	Emulators	Experimental PS Vita emulator for Switch 2 using Vulkan and kaiHEN JIT. Launch with full application memory. Install firmware and fonts using the launcher or the upstream manual procedure; supply your own games and required licenses. Firmware and game data are not included.
+repository	https://github.com/davidkalil10/Vita3K-nx2
+file	78472912	d83b43b0a99cb644d83fb596f8c92a1e0a0003a200efbf36a4edefd65e53f52d	launcher.nro
+github	https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro
+app	toronja	nro	0.9.37	toronja	Olmectron	Toronja (Switch 2)	Olmectron / Azahar and Dekopon contributors	Emulators	Nintendo 3DS emulator fork with Switch 2 rendering improvements and experimental GameShare. Uses the dedicated Switch 2 build; provide your own game dumps. On first launch it can rename /switch/dekopon to /switch/toronja and move existing data; back up that folder if keeping both apps.
+repository	https://github.com/Olmectron/toronja
+file	33451020	8bf2a11853dfa1dcad1f5afe7c13f6f7fb375470283aac9339f4117273283b05	launcher.nro
+github	https://github.com/Olmectron/toronja/releases/download/v0.9.37/toronja-switch2.nro
+app	eden	nro	0.7.0	eden	Olmectron	Eden (Switch 2 PoC)	Olmectron / Eden contributors	Emulators	Experimental Switch 1 emulator running on Switch 2 under kaiHEN. Supply your own games and keys in /switch/eden/.local/share/eden/keys/. Expect crashes, stutter and missing graphics; one player, no touch or guest networking. No games, keys or firmware are included.
+repository	https://github.com/Olmectron/eden-switch2-poc
+file	42547397	6e690fcf5f6942bf52bbf1d455d344f3c8fd42309dcda9cc11f71bfcc691877c	launcher.nro
+github	https://github.com/Olmectron/eden-switch2-poc/releases/download/v0.7.0/eden.nro
+app	jksv-ns2	nro	1.0.1	JKSV-NS2	Aster145	JKSV-NS2	Aster145 / J-D-K (JK)	Tools	Save manager port for Switch 2 under kaiHEN. Back up and restore saves; backups are stored in /JKSV/. Close games before restoring. The interface defaults to Simplified Chinese; English and Japanese are available in Settings after restarting.
+repository	https://github.com/Aster145/JKSV-NS2
+file	20665223	9eed4183f372292bf706ef6b3e2ef4ef508d27cc4d38416f6b8e9645af86d727	launcher.nro
+github	https://github.com/Aster145/JKSV-NS2/releases/download/v1.0.1/JKSV-NS2-1.0.1.nro
+app	ouncemtp	nro	1.0.0	ouncemtp	venustrikes	OunceMTP	venustrikes	Tools	USB MTP file transfer between a PC and the Switch 2 SD card. Connect a USB data cable and use an MTP-capable file manager on the PC. No network connection is required.
+repository	https://github.com/venustrikes/ouncemtp
+file	485320	7b4ffab4396f6d94f9832f8301ccf3dff5fdf20ae3f8c0ff6e91a04a58acab17	launcher.nro
+github	https://github.com/venustrikes/ouncemtp/releases/download/v1.0.0/ouncemtp.nro
+app	pkforge	nro	0.7.4	pkforge	sh00kapic	PKForge (Switch 2)	sh00kapic / PKForge contributors	Tools	Offline Pokemon save editor for Switch 2. Place exported save copies in /switch/PKForge/saves/ and export edits to /switch/PKForge/exports/. Optional portraits and local Mystery Gift catalogs are configured separately; editing works without them. Keep backups of your original saves.
+repository	https://github.com/sh00kapic/PKForge-Switch2
+file	96646161	15ebf5f30e0f98f24241b2cc556e18ce0aee9cb9209e974edc901b365eb74d1e	launcher.nro
+github	https://github.com/sh00kapic/PKForge-Switch2/releases/download/v0.7.4/PKForge-AIO.nro
+app	chromium-nx	nro	0.2.0	chromium-nx	shodowlo	Chromium NX (Switch 2)	shodowlo	Tools	Experimental Chromium browser using the dedicated Switch 2 launcher under kaiHEN. On first start it downloads the separate chromium-full.ext4 image (about 411 MiB), or place that image in /switch/chromium-nx/ manually. Requires enough free SD space and network access for online browsing.
+repository	https://github.com/shodowlo/chromium-nx
+file	39704030	68652106987d72abd3423b43fff5e4d5f1499ff167e8197c178559e49f0aeab2	launcher.nro
+github	https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx2.nro
+app	ouncecord	nro	1-beta	OunceCord	nyathea	OunceCord	nyathea	Media	Experimental third-party Discord client for Switch 2 under kaiHEN. Supports sign-in with 2FA, messages, reactions and console capture sharing. Requires a Discord account and network access. Upstream warns that third-party clients conflict with Discords terms and may put accounts at risk.
+repository	https://github.com/nyathea/OunceCord
+file	20947058	fd964ad6edcf075a0b5a22338caa181365379089ebe3513cc8d0260afe85ce60	launcher.nro
+github	https://github.com/nyathea/OunceCord/releases/download/v1-beta/OunceCord.nro
 app	vacootube	iza	1.5.7	VacooTube	IZMYSH	Media	Watch YouTube on Switch 2 with a TV-style interface. Requires VacooTube on a Linux PC and an active IZ2S connection.
 repository	https://github.com/byizmysh/VacooTube
 file	509940	2291046770bc487b16b20704196de6bb961150c16209132268a7faf9a6cb39c2	launcher.iza
@@ -12,200 +207,8 @@ repository	https://github.com/byizmysh/iz2s-cheese
 file	821884	7239f9545677ee1c887f7ea1e32dc83c381e2bbc4848c640fee38078675c0386	launcher.iza
 file	95408	e761d0d4cd8615032ef60cfc14a22da2c949028146943bc7c2625231ddf20293	asset-e761d0d4cd8615032ef60cfc14a22da2c949028146943bc7c2625231ddf20293.izdata
 github	https://github.com/byizmysh/iz2s-cheese/releases/download/v0.8.1/iz2s-cheese.iza
-app	iz2s-cheese	nro	0.8.1	IZ2S Cheese	IZMYSH	Tools	Browse and install Switch 2 homebrew.
-repository	https://github.com/byizmysh/iz2s-cheese
-file	1250043	6c47182527270345ba61e1d735d2bb0f57269eb72bd3f27080f32dde21ec2cbf	launcher.nro
-github	https://github.com/byizmysh/iz2s-cheese/releases/download/v0.8.1/iz2s-cheese.nro
-app	kaiplayer	nro	0.9.0-beta	KaiPlayer	mizuiroame	Media	Listen to music stored on your SD card with a native audio player made for Switch 2.
-repository	https://github.com/mizuiroame/kaiplayer
-file	2133314	f8d90a4e1b427078146571ec40f655609e493e0a4e2243a4f823f918da6cb535	launcher.nro
-github	https://github.com/mizuiroame/kaiplayer/releases/download/v0.9.0-beta/KaiPlayer.nro
-app	sw2nes	nro	2.12.2	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
-repository	https://github.com/Rodpad/SW2NES
-file	22202374	661f55474fa9d7dc9dc2f0f63902147ffbebf1022f6471b72fa1991137a1f33a	launcher.nro
-github	https://github.com/Rodpad/SW2NES/releases/download/v2.12.2/sw2nes.nro
-app	checkpoint	nro	5.3.0-switch2-1	Checkpoint	FlagBrew / wowilookgood	Tools	Back up and restore game saves from a console interface.
-repository	https://github.com/wowilookgood/Checkpoint
-file	21280085	aa11bf9567b5469bd8a2479e2060c8be1c4beb3f82cb4370233f68e5cab58fc2	launcher.nro
-github	https://github.com/wowilookgood/Checkpoint/releases/download/v5.3.0-switch2-1/Checkpoint-hen.nro
-app	pksm	nro	10.4.0-switch2-1	PKSM	FlagBrew / wowilookgood	Tools	Manage compatible Pokemon game saves and organize local collections.
-repository	https://github.com/wowilookgood/PKSM
-file	28274964	5d406215feba4c33483829855b21eaad18be5e2142b0ab3204dc2e3d63a2f860	launcher.nro
-github	https://github.com/wowilookgood/PKSM/releases/download/10.4.0-switch2-1/PKSM-hen.nro
-app	nxgallery	nro	2.0.0-switch2-1	NXGallery	iUltimateLP / wowilookgood	Media	View console captures and transfer them to a browser over your local network.
-repository	https://github.com/wowilookgood/NXGallery
-file	20421866	86574515d2a5d61cbbb44411503ac888a2725375d9d864c8f0cec0efd3e9e0a2	launcher.nro
-github	https://github.com/wowilookgood/NXGallery/releases/download/2.0.0-switch2-1/NXGallery-hen.nro
-app	akira	nro	0.2.2	Akira	Chiaki-ng contributors	Media	Stream from your own PlayStation over Remote Play.
-repository	https://github.com/chiaki-ng/akira-ounce
-file	22316112	99f8d209de187a2699936a79162fa6220cab236788c7b901423bafcccd0c9a25	launcher.nro
-github	https://github.com/chiaki-ng/akira-ounce/releases/download/v0.2.2/akira.nro
-app	ounce-donut	nro	1.0	Ounce Donut	Rix565	Games	A small animated ASCII donut demo for Switch 2.
-repository	https://github.com/Rix565/ouncedonut
-file	24994521	8f8c1cd79a2b21f0d57ae349b971bd35ebee8cf15400da62fe22208e8f07882f	launcher.nro
-github	https://github.com/Rix565/ouncedonut/releases/download/v1.0/Donut.nro
-app	kaitube	nro	0.0.2-beta	KaiTube	Sank-kab	Media	Experimental native YouTube client for Switch 2.
-repository	https://github.com/Sank-kab/KaiTube
-file	47938914	6c6b57dbf16629d864135761f31c9f4410fdef9ffd66db7ff0af47a08e2c5c6a	launcher.nro
-github	https://github.com/Sank-kab/KaiTube/releases/download/v0.0.2-beta/KaiTube-beta0.0.2.nro
-app	internal-speakers	nro	1.0.0-ounce	Force Internal Speakers	souldbminerr / paulocode	Tools	Route sound to the built-in speakers while the console is docked.
-repository	https://github.com/souldbminerr/switch_internal_speakers_nro
-file	364711	4c2c1eab0f6114122a5216938ff027d70c7e27ded3ab728b35317ba09d1d9bff	launcher.nro
-github	https://github.com/souldbminerr/switch_internal_speakers_nro/releases/download/v1.0.0-ounce/switch_internal_speakers_nro.nro
-app	green-nx	nro	1.0.31pre1-switch2	Green-NX	davidkalil10 / atjike	Media	Cloud gaming client for Switch 2. Requires a compatible account and internet connection.
-repository	https://github.com/davidkalil10/green-nx_switch-2
-file	22575167	11bea13202099c530f1b4e7bc9a58300430e2de4e6b3d213af460639fe51d9c4	launcher.nro
-github	https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro
-app	dolphin	nro	1.0.0	Dolphin	MegaCadeDev / Dolphin team	Emulators	Early test port of Dolphin for Switch 2: GameCube and Wii emulation with Vulkan and JIT. Supply your own games. USB drives are not supported; performance and graphics vary by game.
-repository	https://github.com/MegaCadeDev/dolphin-nx2
-file	44676744	e0a502e6e43d67b0c7394d0ee649d7c0a07f8c9c4b55300042f0c8c761224de7	launcher.nro
-github	https://github.com/MegaCadeDev/dolphin-nx2/releases/download/v1.0.0/dolphin.nro
-app	mgba	nro	1.0.0	mGBA	jackspence7 / mGBA team	Emulators	Native mGBA port for Switch 2 homebrew. Play your own GBA games with sound, save states and screen modes. GB/GBC support is present but was not tested by the port author.
-repository	https://github.com/jackspence7/GBA-kaiHEN
-file	18192371	d36444da81498d6cae058745117f659a3cfb3d2fffb609bfbcf05a4a98c820ae	launcher.nro
-github	https://github.com/jackspence7/GBA-kaiHEN/releases/download/v1.0.0/mgba.nro
-app	kaizhar	nro	2126.2-kaizhar2	Kaizhar	wowilookgood / Azahar team	Emulators	Unofficial Azahar 3DS emulator for Switch 2 with Vulkan, JIT and several screen layouts. Put your own decrypted games in /switch/Kaizhar/roms. First launches compile shaders; encrypted CIA files are refused.
-repository	https://github.com/wowilookgood/kaizhar
-file	32035338	820fc60524cb7ec289144ca65929c64d2bf4c0a86a8d7887a63befa4d5b73d75	launcher.nro
-github	https://github.com/wowilookgood/kaizhar/releases/download/2126.2-kaizhar2/kaizhar.nro
-app	openrct2	nro	1.0-ounce	OpenRCT2	souldbminerr / OpenRCT2 team	Games	Switch 2 port of OpenRCT2 with mouse and gamepad controls. Requires your own RollerCoaster Tycoon data in /switch/openrct2/rct2/ (or rct1/ for RCT1). The download contains the engine, not the original game.
-repository	https://github.com/souldbminerr/OpenRCT2-Switch
-file	34373336	9c129e383c5f48186ca46a10e7ed1c221e4057b8e4943bff01a8a2d18a7782f4	launcher.nro
-github	https://github.com/souldbminerr/OpenRCT2-Switch/releases/download/v1.0-ounce/openrct2.nro
-app	90dns-tester	nro	1.0.5-Ounce	90DNS Tester	souldbminerr / 90DNS Tester contributors	Tools	Run DNS checks on Switch 2 to inspect Nintendo domain blocking. Displays test results; it does not change your console network settings.
-repository	https://github.com/souldbminerr/90DNS-Tester
-file	444366	a33cd6925822b5b890a1a7366ad2e433dd49e240508cd82f8f726465fad83316	launcher.nro
-github	https://github.com/souldbminerr/90DNS-Tester/releases/download/1.0.5-Ounce/Switch_90DNS_tester.nro
-app	nces	nro	release	Nic Cage Eats Stuff	PennyLoafer / Cart1416	Games	Switch 2 port of Nic Cage Eats Stuff. A small arcade homebrew game published as a standalone NRO.
-repository	https://github.com/PennyLoafer5/nces-switch2
-file	22086845	92325e17e71faa6d8f74a9e941c0b82b19118b31d0024c2131ebd3ec6b8fa384	launcher.nro
-github	https://github.com/PennyLoafer5/nces-switch2/releases/download/release/nces-switch2.nro
-app	bad-apple	nro	bad_apple_ounce	Bad Apple!	souldbminerr	Media	Bad Apple audiovisual demo, using the dedicated Ounce build for Switch 2. This is the Switch 2 release, not the separate Switch 1 binary.
-repository	https://github.com/souldbminerr/bad-apple-switch
-file	59259489	8f097312ab4ebe073aa70edf6830a085255e8880bfa351befedb01321e6f9c02	launcher.nro
-github	https://github.com/souldbminerr/bad-apple-switch/releases/download/bad_apple_ounce/bad-apple-switch.nro
 app	izpsx	iza	0.5.2	IZPSX	IZMYSH	Emulators	Play your PlayStation games on Switch 2. Requires IZ2S and your own BIOS and game files.
 repository	https://github.com/byizmysh/IZPSX-emulator
 file	160696	bc3054dc595fa9d99eba9badd2304f8a1536636b42acd7b70b428fdc97b3f0d0	launcher.iza
 file	1746048	b87343c59604a1ffc497ec852e7fc80beb65cf92b6e208124528a4a39b6fb8db	asset-b87343c59604a1ffc497ec852e7fc80beb65cf92b6e208124528a4a39b6fb8db.izdata
 github	https://github.com/byizmysh/IZPSX-emulator/releases/download/v0.5.2/launcher.iza
-app	cemu-nx2	nro	1.3.2	Cemu-NX2	TheAJLive / Cemu team	Emulators	Wii U emulator for Switch 2 under kaiHEN. Requires your own games and about 5.5 GiB of homebrew heap. USB drives and SaltyNX are not supported.
-repository	https://github.com/TheAJLive/Cemu-NX2
-file	89896102	bfa655a600ed5d59472cd043a668c602e4e01be7387e73073ed4f34f154d641f	launcher.nro
-github	https://github.com/TheAJLive/Cemu-NX2/releases/download/v1.3.2/cemu-switch2.nro
-app	dekopon	nro	0.9.1	Dekopon for Switch 2	Olmectron / Dekopon contributors	Emulators	Nintendo 3DS emulator, using the Switch 2 port by Olmectron. Supply your own games. Shader caches rebuild after updating; asynchronous shader compilation is experimental.
-repository	https://github.com/Olmectron/dekopon
-file	32831532	7828ce82d466ade272260f1351dd7a9f82e64e9e51f409782280e73c413ced9c	launcher.nro
-github	https://github.com/Olmectron/dekopon/releases/download/v0.9.1/dekopon.nro
-app	sw2transfer	nro	1.4.0	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
-repository	https://github.com/Rodpad/SW2Transfer
-file	19833345	f7def19f34318dd1ef8f82126dde040edd410360768f7c6f547d2bf5df15ca08	launcher.nro
-github	https://github.com/Rodpad/SW2Transfer/releases/download/v1.4.0/sw2transfer.nro
-app	moader	nro	0.1.2	Moader	H644b	Tools	Mod manager with console and browser interfaces. Requires a compatible Moader resident backend and matched patched HEN, installed separately. This download installs the console app only; follow the repository installation guide.
-repository	https://github.com/H644b/Moader
-file	1937336	e251020bcd550afc72982ac80bf54a1060ff6aca8b3ffdb401a36c01c44ae9eb	launcher.nro
-github	https://github.com/H644b/Moader/releases/download/v0.1.2/Moader.nro
-app	brewstore	nro	1.2.0	Brewstore	HerXayah	Tools	Homebrew catalog and downloader for Switch 2. Requires the upstream hbmenu/brewloader setup. This download installs brewstore.nro only; follow the repository instructions for the remaining setup.
-repository	https://github.com/HerXayah/brewstore
-file	734246	2a942ee3f462f6b7911c1b02d6431b132c4c7c1c757a3c71780fc0ee10f3a665	launcher.nro
-github	https://github.com/HerXayah/brewstore/releases/download/1.2.0/brewstore.nro
-app	blacklist-tool	nro	1.0.0	blacklist-tool	s8n	Tools	System utility to inspect or modify the Switch 2 FunctionBlackList. Write operations persist across reboots and may affect Nintendo service access. Follow the upstream instructions. This is the latest release with a published Switch 2 NRO.
-repository	https://github.com/s8n/blacklist-tool
-file	477381	719bcb90a7251014e41633b14cf093bd32cea8eccf6c605a8d0b91b81391a787	launcher.nro
-github	https://github.com/s8n/blacklist-tool/releases/download/v1.0.0/blacklist-tool-switch2.nro
-app	switchfin-nx2	nro	1.0.1	Switchfin NX2	Lucaspec72 / Switchfin contributors	Media	Native Jellyfin client using the Switch 2 port by Lucaspec72. Requires access to your Jellyfin server. This is the dedicated Switch 2 build.
-repository	https://github.com/Lucaspec72/switchfin
-file	42724987	fadcda79e093252d00acee098d65c5d080245620e1e76ea47ca3db798e9cc4fa	launcher.nro
-github	https://github.com/Lucaspec72/switchfin/releases/download/1.0.1/SwitchfinNX2.nro
-app	nx-torrent-player	nro	0.6.0	NX Torrent Player	shodowlo	Media	Native media player for Switch 2 with Stremio-style streaming features. This entry uses the dedicated NX2 binary; an internet connection and upstream setup may be required.
-repository	https://github.com/shodowlo/NX-torrent-player
-file	43724259	88ebc6e64373d5017d2f29ae04b44caca1dd8fbebe0fb7c0b806769735c9456c	launcher.nro
-github	https://github.com/shodowlo/NX-torrent-player/releases/download/v0.6.0/NX2-torrent-player.nro
-app	switch2now	nro	1.3.0	Switch2NOW	davidkalil10 / Blade-Punisher	Media	Native GeForce NOW client for Switch 2. Requires a GeForce NOW account, a supported region and an internet connection. Uses the dedicated Switch 2 build.
-repository	https://github.com/davidkalil10/Switch2NOW
-file	47569574	2591acba44f99645a9b1de80eac8aef7ae7a8d70083492fd0a4014b8ef38eeb3	launcher.nro
-github	https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro
-app	sw2snes	nro	1.0.1	SW2SNES	Rodpad / Snes9x contributors	Emulators	SNES emulator for Switch 2 using Snes9x, with save states, rewind and shaders. Supply your own games in /roms/snes or select another folder in Settings. Version 1.0.1 is the current published release.
-repository	https://github.com/Rodpad/SW2SNES
-file	21748484	ed1e8a246bc2ea9ba8a5772206fcbed83fdcc73b186dbc131b9be2494880c2fb	launcher.nro
-github	https://github.com/Rodpad/SW2SNES/releases/download/v1.0.1/sw2snes.nro
-app	stremnx2	nro	0.3.2	StremNX2	davidkalil10 / denpingus	Media	Unofficial Stremio client using the dedicated Switch 2 build. Requires your own configured add-ons and network access. Launch with full application memory; see the repository for setup.
-repository	https://github.com/davidkalil10/StremNX2
-file	41582595	f333ee836ba596e8fa596eaa854e09c0b00efdc859f14604394c7adeb5d47fd7	launcher.nro
-github	https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro
-app	nhse	nro	4.0.0	NHSE	sh00kapic / NHSE contributors	Tools	Animal Crossing: New Horizons save editor for Switch 2. Close the game before editing; saves are backed up when opened and written when you confirm Save. Includes console and SD save editing; some desktop features are unavailable.
-repository	https://github.com/sh00kapic/nhse
-file	7724601	72ba04aa5d9b4715f604447d209930ab842591aaedae26ba6f33a50632fd811b	launcher.nro
-github	https://github.com/sh00kapic/nhse/releases/download/v4.0.0/nhse.nro
-app	kairadio	nro	1.0.1	KaiRadio	mizuiroame	Media	Internet radio player for Switch 2 under kaiHEN. Browse stations and save favourites. Requires a network connection; configuration is stored next to the application.
-repository	https://github.com/mizuiroame/kairadio
-file	21528129	4f8140b66b793fddb2637132869d720d37e7080c2a19cea7cf7a70decef0a0a5	launcher.nro
-github	https://github.com/mizuiroame/kairadio/releases/download/v1.0.1/KaiRadio.nro
-app	abreloaded	nro	1.0.2	Angry Birds Reloaded wrapper	githubuser77777 / aks796	Games	Native Android compatibility wrapper for Angry Birds Reloaded 2.2.16218. Requires your own APK libraries, assets and cursor images in /switch/abreloaded, plus kaiHEN ldr:ro support. This download installs only the wrapper; follow the repository setup guide.
-repository	https://github.com/githubuser77777/abreloaded_nx2
-file	18048453	9f276f2ab731a15db118ffd46d79b1086dd4f1dd7376ddabc95df1e4ee63e482	launcher.nro
-github	https://github.com/githubuser77777/abreloaded_nx2/releases/download/1.0.2/abreloaded_nx.nro
-app	nxengine-evo	nro	2.6.5-oz	NXEngine-evo (Switch 2)	ya-v-ia / NXEngine-evo contributors	Games	Switch 2 port of the open-source NXEngine-evo engine for Cave Story. This entry uses the Ounce build. Follow the repository for game resources and controls; user data is stored relative to the NRO location.
-repository	https://github.com/ya-v-ia/ounce-nxengine-evo
-file	58013138	47d456b3b221db54b6a2f8ada0d0c56549f90f9d0a8808df1ce1bb440256e30f	launcher.nro
-github	https://github.com/ya-v-ia/ounce-nxengine-evo/releases/download/v2.6.5-oz/Ounce-NXEngine-Evo-2.6.5.nro
-app	super-moonlight-nx2	nro	1.0.0	Super Moonlight NX2	davidkalil10 / Azkali	Media	Stream PC games from Sunshine over LAN or the built-in Tailscale tunnel. Requires a Sunshine host and kaiHEN 20261114c or newer. Select H.264 in Settings before streaming; the release notes report an AV1 startup issue.
-repository	https://github.com/davidkalil10/super-moonlight-nx2
-file	13822737	732efef01dae852adfffe2dfee9f027deaa38f2a3167501b1ca53654aef98328	launcher.nro
-github	https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro
-app	game-vault	nro	0.4.5	Game Vault	flex36ty / Game Vault contributors	Tools	Game and save backup, restore and file transfer utility for Switch 2. Requires the separately installed compatible kaiHEN fsipc-v1 runtime and SD helpers. This download updates only the app; follow the upstream runtime guide. Full backup/restore verification is still pending upstream.
-repository	https://github.com/flex36ty/switch2-gamevault
-file	2289863	d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43	launcher.nro
-github	https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro
-app	punktfunk	nro	0.1.0	PunktFunk	d0vere / punktfunk contributors	Media	Stream PC games to Switch 2 over your home network. Requires the punktfunk host on your PC, kaiHEN and full application memory. Handheld mode is recommended by the port author; pair with the PIN shown by your host.
-repository	https://github.com/d0vere/punktfunk-client-switch2
-file	41140096	7f8a533dd07cdd7a338cd0b1612982ccb4819d03cee1c7664349a030b2c28457	launcher.nro
-github	https://github.com/d0vere/punktfunk-client-switch2/releases/download/v0.1.0/punktfunk-switch2.nro
-app	kaidump	nro	1.0.2	KaiDump	BlafKing	Tools	Export your installed games, updates, DLC, ExeFS and RomFS to SD, FTP or USB. Requires kaiHEN 20261117b or newer and sufficient storage. Experimental; read the repository requirements before use.
-repository	https://github.com/BlafKing/KaiDump
-file	19811881	12ec8c08159b918ba7eeafe6396b2cecc746c18d83708eb1c46e5c37e1c710ad	launcher.nro
-github	https://github.com/BlafKing/KaiDump/releases/download/1.0.2/KaiDump.nro
-app	ppsspp-davidkalil	nro	1.1.9	PPSSPP (davidkalil10)	davidkalil10 / PPSSPP contributors	Emulators	PSP emulator port for Switch 2 with Vulkan and kaiHEN JIT. Supply your own games and launch with full application memory. This is davidkalil10's fork; the separate XITRIX fork adds experimental GameShare. Optional frame generation needs your own Lossless.dll.
-repository	https://github.com/davidkalil10/ppsspp-nx2
-file	67165694	5ada96c313055aa56391c0468efc72ea46a33944dea8436e420318b33a45948f	launcher.nro
-github	https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro
-app	ppsspp-xitrix	nro	0.1.0	PPSSPP (XITRIX GameShare)	XITRIX / PPSSPP contributors	Emulators	Separate PPSSPP port for Switch 2 under kaiHEN. Includes experimental GameShare for local multiplayer with a second, unmodified Switch. Supply your own PSP games; see upstream for supported GameShare setup. This is distinct from davidkalil10's fork.
-repository	https://github.com/XITRIX/ppsspp-nx2
-file	66816508	9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3	launcher.nro
-github	https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro
-app	sw2ps2	nro	1.1.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
-repository	https://github.com/Rodpad/SW2PS2
-file	43681225	789b7d05fe7aaf3435be4cdd4dc01693edc88bf00f29ed8ec315fce147cb4737	launcher.nro
-github	https://github.com/Rodpad/SW2PS2/releases/download/v1.1.0/sw2ps2.nro
-app	vita3k-nx2	nro	1.4.1	Vita3K-nx2	davidkalil10 / Vita3K contributors	Emulators	Experimental PS Vita emulator for Switch 2 using Vulkan and kaiHEN JIT. Launch with full application memory. Install firmware and fonts using the launcher or the upstream manual procedure; supply your own games and required licenses. Firmware and game data are not included.
-repository	https://github.com/davidkalil10/Vita3K-nx2
-file	78472912	d83b43b0a99cb644d83fb596f8c92a1e0a0003a200efbf36a4edefd65e53f52d	launcher.nro
-github	https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro
-app	toronja	nro	0.9.37	Toronja (Switch 2)	Olmectron / Azahar and Dekopon contributors	Emulators	Nintendo 3DS emulator fork with Switch 2 rendering improvements and experimental GameShare. Uses the dedicated Switch 2 build; provide your own game dumps. On first launch it can rename /switch/dekopon to /switch/toronja and move existing data; back up that folder if keeping both apps.
-repository	https://github.com/Olmectron/toronja
-file	33451020	8bf2a11853dfa1dcad1f5afe7c13f6f7fb375470283aac9339f4117273283b05	launcher.nro
-github	https://github.com/Olmectron/toronja/releases/download/v0.9.37/toronja-switch2.nro
-app	eden	nro	0.7.0	Eden (Switch 2 PoC)	Olmectron / Eden contributors	Emulators	Experimental Switch 1 emulator running on Switch 2 under kaiHEN. Supply your own games and keys in /switch/eden/.local/share/eden/keys/. Expect crashes, stutter and missing graphics; one player, no touch or guest networking. No games, keys or firmware are included.
-repository	https://github.com/Olmectron/eden-switch2-poc
-file	42547397	6e690fcf5f6942bf52bbf1d455d344f3c8fd42309dcda9cc11f71bfcc691877c	launcher.nro
-github	https://github.com/Olmectron/eden-switch2-poc/releases/download/v0.7.0/eden.nro
-app	jksv-ns2	nro	1.0.1	JKSV-NS2	Aster145 / J-D-K (JK)	Tools	Save manager port for Switch 2 under kaiHEN. Back up and restore saves; backups are stored in /JKSV/. Close games before restoring. The interface defaults to Simplified Chinese; English and Japanese are available in Settings after restarting.
-repository	https://github.com/Aster145/JKSV-NS2
-file	20665223	9eed4183f372292bf706ef6b3e2ef4ef508d27cc4d38416f6b8e9645af86d727	launcher.nro
-github	https://github.com/Aster145/JKSV-NS2/releases/download/v1.0.1/JKSV-NS2-1.0.1.nro
-app	ouncemtp	nro	1.0.0	OunceMTP	venustrikes	Tools	USB MTP file transfer between a PC and the Switch 2 SD card. Connect a USB data cable and use an MTP-capable file manager on the PC. No network connection is required.
-repository	https://github.com/venustrikes/ouncemtp
-file	485320	7b4ffab4396f6d94f9832f8301ccf3dff5fdf20ae3f8c0ff6e91a04a58acab17	launcher.nro
-github	https://github.com/venustrikes/ouncemtp/releases/download/v1.0.0/ouncemtp.nro
-app	pkforge	nro	0.7.3	PKForge (Switch 2)	sh00kapic / PKForge contributors	Tools	Offline Pokemon save editor for Switch 2. Place exported save copies in /switch/PKForge/saves/ and export edits to /switch/PKForge/exports/. Optional portraits and local Mystery Gift catalogs are configured separately; editing works without them. Keep backups of your original saves.
-repository	https://github.com/sh00kapic/PKForge-Switch2
-file	64510445	8b23a0134aeae3de742a080f122b06e438d7ec41095ebf26c7034a08f73508b7	launcher.nro
-github	https://github.com/sh00kapic/PKForge-Switch2/releases/download/v0.7.3/PKForge.nro
-app	chromium-nx	nro	0.2.0	Chromium NX (Switch 2)	shodowlo	Tools	Experimental Chromium browser using the dedicated Switch 2 launcher under kaiHEN. On first start it downloads the separate chromium-full.ext4 image (about 411 MiB), or place that image in /switch/chromium-nx/ manually. Requires enough free SD space and network access for online browsing.
-repository	https://github.com/shodowlo/chromium-nx
-file	39704030	68652106987d72abd3423b43fff5e4d5f1499ff167e8197c178559e49f0aeab2	launcher.nro
-github	https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx2.nro
-app	ouncecord	nro	1-beta	OunceCord	nyathea	Media	Experimental third-party Discord client for Switch 2 under kaiHEN. Supports sign-in with 2FA, messages, reactions and console capture sharing. Requires a Discord account and network access. Upstream warns that third-party clients conflict with Discord's terms and may put accounts at risk.
-repository	https://github.com/nyathea/OunceCord
-file	20947058	fd964ad6edcf075a0b5a22338caa181365379089ebe3513cc8d0260afe85ce60	launcher.nro
-github	https://github.com/nyathea/OunceCord/releases/download/v1-beta/OunceCord.nro
