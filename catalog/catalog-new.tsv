@@ -15,10 +15,10 @@ app	iz2s-cheese	nro	0.8.7	IZ2S Cheese	IZMYSH	Tools	Browse and install Switch 2 h
 repository	https://github.com/byizmysh/iz2s-cheese
 file	1279419	09d99bc8b935ec0618874f999d063fafb313f91c3cd8a84676e0eb9a7328aa80	launcher.nro
 github	https://github.com/byizmysh/iz2s-cheese/releases/download/v0.8.7/iz2s-cheese.nro
-app	kaiplayer	nro	1.6.0	KaiPlayer	mizuiroame	Media	Listen to music stored on your SD card with a native audio player made for Switch 2.
+app	kaiplayer	nro	1.7.0	KaiPlayer	mizuiroame	Media	Listen to music stored on your SD card with a native audio player made for Switch 2.
 repository	https://github.com/mizuiroame/kaiplayer
-file	20706026	ac942e4e6c7c5be29c6043d525266ffe6d363ece64ae4fd7e1559e3c5092f4d4	launcher.nro
-github	https://github.com/mizuiroame/kaiplayer/releases/download/v1.6.0/KaiPlayer.nro
+file	20832049	14ad38bf32dbe2a0df60dc41e8b1590dd752d18795571cc0ebea7a2366ac2db3	launcher.nro
+github	https://github.com/mizuiroame/kaiplayer/releases/download/v1.7.0/KaiPlayer.nro
 app	sw2nes	nro	2.12.2	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
 repository	https://github.com/Rodpad/SW2NES
 file	22202374	661f55474fa9d7dc9dc2f0f63902147ffbebf1022f6471b72fa1991137a1f33a	launcher.nro
@@ -96,10 +96,10 @@ app	dekopon	nro	0.9.1	Dekopon for Switch 2	Olmectron / Dekopon contributors	Emul
 repository	https://github.com/Olmectron/dekopon
 file	32831532	7828ce82d466ade272260f1351dd7a9f82e64e9e51f409782280e73c413ced9c	launcher.nro
 github	https://github.com/Olmectron/dekopon/releases/download/v0.9.1/dekopon.nro
-app	sw2transfer	nro	2.0.0	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
+app	sw2transfer	nro	2.0.1	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
 repository	https://github.com/Rodpad/SW2Transfer
-file	21369909	00573c9755e5726c3ed0804bc62e18cd5a4be696fe5edf4e3e2fd84bd568f730	launcher.nro
-github	https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.0/sw2transfer.nro
+file	21380645	e19b36a0c0d009853cac60c5aa96a9662891da5e3ee2aca57e7fd83fe2806d9c	launcher.nro
+github	https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.1/sw2transfer.nro
 app	moader	nro	0.1.2	Moader	H644b	Tools	Mod manager with console and browser interfaces. Requires a compatible Moader resident backend and matched patched HEN, installed separately. This download installs the console app only; follow the repository installation guide.
 repository	https://github.com/H644b/Moader
 file	1937336	e251020bcd550afc72982ac80bf54a1060ff6aca8b3ffdb401a36c01c44ae9eb	launcher.nro
@@ -136,10 +136,10 @@ app	nhse	nro	4.2.0	NHSE	sh00kapic / NHSE contributors	Tools	Animal Crossing: New
 repository	https://github.com/sh00kapic/nhse
 file	9690681	06325e61cf5753e972f8126dbaaaaff10c1db0f1ffcf37d9d8b6fa3213320b1d	launcher.nro
 github	https://github.com/sh00kapic/nhse/releases/download/v4.2.0/nhse.nro
-app	kairadio	nro	1.6.0	KaiRadio	mizuiroame	Media	Internet radio player for Switch 2 under kaiHEN. Browse stations and save favourites. Requires a network connection; configuration is stored next to the application.
+app	kairadio	nro	1.7.0	KaiRadio	mizuiroame	Media	Internet radio player for Switch 2 under kaiHEN. Browse stations and save favourites. Requires a network connection; configuration is stored next to the application.
 repository	https://github.com/mizuiroame/kairadio
-file	21806657	a1b4a69d6382aabd774e4c77a2ca4e99a9290a22ccca22d13e62f6c88857b0b1	launcher.nro
-github	https://github.com/mizuiroame/kairadio/releases/download/v1.6.0/KaiRadio.nro
+file	22049107	c0945c76b63e65b82203abd0e387fd9f2a25ec252c23cf7330866327634c7534	launcher.nro
+github	https://github.com/mizuiroame/kairadio/releases/download/v1.7.0/KaiRadio.nro
 app	abreloaded	nro	1.0.2	Angry Birds Reloaded wrapper	githubuser77777 / aks796	Games	Native Android compatibility wrapper for Angry Birds Reloaded 2.2.16218. Requires your own APK libraries, assets and cursor images in /switch/abreloaded, plus kaiHEN ldr:ro support. This download installs only the wrapper; follow the repository setup guide.
 repository	https://github.com/githubuser77777/abreloaded_nx2
 file	18048453	9f276f2ab731a15db118ffd46d79b1086dd4f1dd7376ddabc95df1e4ee63e482	launcher.nro
