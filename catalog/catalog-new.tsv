@@ -55,10 +55,10 @@ app	green-nx	nro	1.0.31pre1-switch2	Green-NX	davidkalil10 / atjike	Media	Cloud g
 repository	https://github.com/davidkalil10/green-nx_switch-2
 file	22575167	11bea13202099c530f1b4e7bc9a58300430e2de4e6b3d213af460639fe51d9c4	launcher.nro
 github	https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro
-app	dolphin	nro	1.0.0	Dolphin	MegaCadeDev / Dolphin team	Emulators	Early test port of Dolphin for Switch 2: GameCube and Wii emulation with Vulkan and JIT. Supply your own games. USB drives are not supported; performance and graphics vary by game.
-repository	https://github.com/MegaCadeDev/dolphin-nx2
-file	44676744	e0a502e6e43d67b0c7394d0ee649d7c0a07f8c9c4b55300042f0c8c761224de7	launcher.nro
-github	https://github.com/MegaCadeDev/dolphin-nx2/releases/download/v1.0.0/dolphin.nro
+app	dolphin	nro	1.2.3	Dolphin	NaGaa95 / Dolphin team	Emulators	GameCube and Wii emulator for Switch 2 with Vulkan, OpenGL, Drako3D and GameShare. Supports Joy-Con mouse input. Supply your own games.
+repository	https://github.com/NaGaa95/dolphin-nx
+file	92144300	c90089f92356a2ee6d923a1a7721c4999dd9595cd26f2900d671a0dd2453c1f3	launcher.nro
+github	https://github.com/NaGaa95/dolphin-nx/releases/download/1.2.3/dolphin-nx2.nro
 app	mgba	nro	1.0.0	mGBA	jackspence7 / mGBA team	Emulators	Native mGBA port for Switch 2 homebrew. Play your own GBA games with sound, save states and screen modes. GB/GBC support is present but was not tested by the port author.
 repository	https://github.com/jackspence7/GBA-kaiHEN
 file	18192371	d36444da81498d6cae058745117f659a3cfb3d2fffb609bfbcf05a4a98c820ae	launcher.nro
@@ -88,8 +88,8 @@ repository	https://github.com/byizmysh/IZPSX-emulator
 file	160696	7257c46bb8a018849cf25d2e38591fbddb5a1083303c9ee859bf1ab2edb86a3b	launcher.iza
 file	1746208	4b0a995128b0cb0708aa38c800f16bbe509050c43e354a8d0ffeffb261425121	asset-4b0a995128b0cb0708aa38c800f16bbe509050c43e354a8d0ffeffb261425121.izdata
 github	https://github.com/byizmysh/IZPSX-emulator/releases/download/v0.5.3/launcher.iza
-app	cemu-nx2	nro	1.4.1	Cemu-NX2	TheAJLive / Cemu team	Emulators	Wii U emulator for Switch 2 under kaiHEN. Requires your own games and about 5.5 GiB of homebrew heap. USB drives and SaltyNX are not supported.
-repository	https://github.com/TheAJLive/Cemu-NX2
+app	cemu-nx2	nro	1.4.1	Cemu-NX2	TheAJLive / Cemu team	Emulators	Wii U emulator for Switch 2 under kaiHEN. Cheese installs the older compatible build. Open Repository for NaGaa95's larger Switch 2 build and manual installation.
+repository	https://github.com/NaGaa95/Cemu-nx
 file	89892006	2e3faff528d0928bf48c5bd48743d62c31e58a45dd4d5b8fe080804a2c81643d	launcher.nro
 github	https://github.com/TheAJLive/Cemu-NX2/releases/download/v1.4.1/cemu-switch2.nro
 app	dekopon	nro	0.9.1	Dekopon for Switch 2	Olmectron / Dekopon contributors	Emulators	Nintendo 3DS emulator, using the Switch 2 port by Olmectron. Supply your own games. Shader caches rebuild after updating; asynchronous shader compilation is experimental.
@@ -176,10 +176,10 @@ app	sw2ps2	nro	1.2.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayS
 repository	https://github.com/Rodpad/SW2PS2
 file	43855477	4db53b54d2c61ab71897f492009f1a115aced89851b88b1914de5214a5a6ab6a	launcher.nro
 github	https://github.com/Rodpad/SW2PS2/releases/download/v1.2.0/sw2ps2.nro
-app	vita3k-nx2	nro	1.4.1	Vita3K-nx2	davidkalil10 / Vita3K contributors	Emulators	Experimental PS Vita emulator for Switch 2 using Vulkan and kaiHEN JIT. Launch with full application memory. Install firmware and fonts using the launcher or the upstream manual procedure; supply your own games and required licenses. Firmware and game data are not included.
-repository	https://github.com/davidkalil10/Vita3K-nx2
-file	78472912	d83b43b0a99cb644d83fb596f8c92a1e0a0003a200efbf36a4edefd65e53f52d	launcher.nro
-github	https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro
+app	vita3k-nx2	nro	1.4.3	Vita3K-nx2	NaGaa95 / Vita3K contributors	Emulators	PlayStation Vita emulator for Switch 2 with Vulkan and GameShare. Use full application memory and supply your own firmware, fonts, games and licenses.
+repository	https://github.com/NaGaa95/Vita3K-nx
+file	81120144	e292bf3819a697d339583c8a035208cb1403b2dad5b87687b7aa3427288cbea1	launcher.nro
+github	https://github.com/NaGaa95/Vita3K-nx/releases/download/1.4.3/Vita3K-NX2.nro
 app	toronja	nro	0.9.37	Toronja (Switch 2)	Olmectron / Azahar and Dekopon contributors	Emulators	Nintendo 3DS emulator fork with Switch 2 rendering improvements and experimental GameShare. Uses the dedicated Switch 2 build; provide your own game dumps. On first launch it can rename /switch/dekopon to /switch/toronja and move existing data; back up that folder if keeping both apps.
 repository	https://github.com/Olmectron/toronja
 file	33451020	8bf2a11853dfa1dcad1f5afe7c13f6f7fb375470283aac9339f4117273283b05	launcher.nro
@@ -208,3 +208,11 @@ app	ouncecord	nro	1-beta	OunceCord	nyathea	Media	Experimental third-party Discor
 repository	https://github.com/nyathea/OunceCord
 file	20947058	fd964ad6edcf075a0b5a22338caa181365379089ebe3513cc8d0260afe85ce60	launcher.nro
 github	https://github.com/nyathea/OunceCord/releases/download/v1-beta/OunceCord.nro
+app	nup-library	nro	0.5	NX2 BreRun	IZMYSH / nx2-relink contributors	Tools	Browse and launch compatible Nintendo Switch 2 game backups in NUP format from the SD card. Use dumps of games you own.
+repository	https://github.com/byizmysh/nx2-brewrun
+file	31866796	f172cfdab3375754696628400785e1ca730ad7dae7aeba9bfe907e204b5cf3c4	launcher.nro
+github	https://github.com/byizmysh/nx2-brewrun/releases/download/v0.5/nup-library.nro
+app	iztwins2	nro	0.11.0	IZtwiNS2	IZMYSH	Media	Twitch client for Switch 2. Browse live streams, videos and clips with controller or touch navigation. Includes quality selection, subtitles and live chat.
+repository	https://github.com/byizmysh/IZtwiNS2
+file	65255242	57f64a054b4e6418d3ae394c65b6879e8cbc8a5166c92a9729c93d4ba8c2e767	launcher.nro
+github	https://github.com/byizmysh/IZtwiNS2/releases/download/v0.11.0/IZtwiNS2-0.11.0.nro
