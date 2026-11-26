@@ -62,10 +62,10 @@ app	brewstore	nro	1.3.1	Brewstore	HerXayah	Tools	Homebrew catalog and downloader
 repository	https://github.com/HerXayah/brewstore
 file	967718	475481a2b2c938456d193e5233d41afe955f901c62912948ca5523530d1da963	launcher.nro
 github	https://github.com/HerXayah/brewstore/releases/download/1.3.1/brewstore.nro
-app	sw2nes	nro	2.12.2	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
+app	sw2nes	nro	2.13.0	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
 repository	https://github.com/Rodpad/SW2NES
-file	22202374	661f55474fa9d7dc9dc2f0f63902147ffbebf1022f6471b72fa1991137a1f33a	launcher.nro
-github	https://github.com/Rodpad/SW2NES/releases/download/v2.12.2/sw2nes.nro
+file	22358818	d6363b41c1dc21177f3fff8098ab69a237cdc40ce7f84450e6923b605806ed7a	launcher.nro
+github	https://github.com/Rodpad/SW2NES/releases/download/v2.13.0/sw2nes.nro
 app	ppsspp-xitrix	nro	0.1.0	PPSSPP (XITRIX GameShare)	XITRIX / PPSSPP contributors	Emulators	Separate PPSSPP port for Switch 2 under kaiHEN. Includes experimental GameShare for local multiplayer with a second, unmodified Switch. Supply your own PSP games; see upstream for supported GameShare setup. This is distinct from davidkalil10's fork.
 repository	https://github.com/XITRIX/ppsspp-nx2
 file	66816508	9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3	launcher.nro
@@ -102,10 +102,10 @@ app	ouncemtp	nro	1.0.0	OunceMTP	venustrikes	Tools	USB MTP file transfer between 
 repository	https://github.com/venustrikes/ouncemtp
 file	485320	7b4ffab4396f6d94f9832f8301ccf3dff5fdf20ae3f8c0ff6e91a04a58acab17	launcher.nro
 github	https://github.com/venustrikes/ouncemtp/releases/download/v1.0.0/ouncemtp.nro
-app	sw2ps2	nro	1.2.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
+app	sw2ps2	nro	1.3.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
 repository	https://github.com/Rodpad/SW2PS2
-file	43855477	4db53b54d2c61ab71897f492009f1a115aced89851b88b1914de5214a5a6ab6a	launcher.nro
-github	https://github.com/Rodpad/SW2PS2/releases/download/v1.2.0/sw2ps2.nro
+file	43933301	19dcbee83d7b6ea5b60a75510a8ffdb31254b76fbe2f9aeacd3a633d35b887da	launcher.nro
+github	https://github.com/Rodpad/SW2PS2/releases/download/v1.3.0/sw2ps2.nro
 app	kaitube	nro	0.0.2-beta	KaiTube	Sank-kab	Media	Experimental native YouTube client for Switch 2.
 repository	https://github.com/Sank-kab/KaiTube
 file	47938914	6c6b57dbf16629d864135761f31c9f4410fdef9ffd66db7ff0af47a08e2c5c6a	launcher.nro
@@ -190,10 +190,10 @@ app	ppsspp-davidkalil	nro	1.1.9	PPSSPP (davidkalil10)	davidkalil10 / PPSSPP cont
 repository	https://github.com/davidkalil10/ppsspp-nx2
 file	67165694	5ada96c313055aa56391c0468efc72ea46a33944dea8436e420318b33a45948f	launcher.nro
 github	https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro
-app	sw2snes	nro	1.0.1	SW2SNES	Rodpad / Snes9x contributors	Emulators	SNES emulator for Switch 2 using Snes9x, with save states, rewind and shaders. Supply your own games in /roms/snes or select another folder in Settings. Version 1.0.1 is the current published release.
+app	sw2snes	nro	1.1.0	SW2SNES	Rodpad / Snes9x contributors	Emulators	SNES emulator for Switch 2 using Snes9x, with save states, rewind and shaders. Supply your own games in /roms/snes or select another folder in Settings. Version 1.0.1 is the current published release.
 repository	https://github.com/Rodpad/SW2SNES
-file	21748484	ed1e8a246bc2ea9ba8a5772206fcbed83fdcc73b186dbc131b9be2494880c2fb	launcher.nro
-github	https://github.com/Rodpad/SW2SNES/releases/download/v1.0.1/sw2snes.nro
+file	21909024	65c2eb2c34ea57c87d7f27d003f890713d3aca8a9e7e4a662c74f67b86d0e93f	launcher.nro
+github	https://github.com/Rodpad/SW2SNES/releases/download/v1.1.0/sw2snes.nro
 app	abreloaded	nro	1.0.2	Angry Birds Reloaded wrapper	githubuser77777 / aks796	Games	Native Android compatibility wrapper for Angry Birds Reloaded 2.2.16218. Requires your own APK libraries, assets and cursor images in /switch/abreloaded, plus kaiHEN ldr:ro support. This download installs only the wrapper; follow the repository setup guide.
 repository	https://github.com/githubuser77777/abreloaded_nx2
 file	18048453	9f276f2ab731a15db118ffd46d79b1086dd4f1dd7376ddabc95df1e4ee63e482	launcher.nro
