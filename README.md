@@ -6,7 +6,7 @@ A community homebrew catalog for Nintendo Switch 2, designed for [IZ2S Cheese](h
 
 In IZ2S Cheese, open **Settings → Catalog URL** and paste the address for your version.
 
-**IZ2S Cheese 0.8.7 and later**
+**IZ2S Cheese 0.8.2 and later**
 
 ```text
 https://raw.githubusercontent.com/dadadush/switch2-homebrew-catalog/main/catalog/catalog-new.tsv
@@ -19,6 +19,12 @@ https://raw.githubusercontent.com/dadadush/switch2-homebrew-catalog/main/catalog
 ```
 
 IZ2S Cheese downloads `artwork.bin` from the same folder for both catalogs. Press **Y → Refresh** in the catalog to get the latest list and thumbnails.
+
+## Manual installs
+
+- **Cemu for Switch 2.** Download `cemu-nx2.nro` from [NaGaa95's releases](https://github.com/NaGaa95/Cemu-nx/releases). The current upstream build exceeds Cheese's 128 MiB file limit. The catalog still offers the older build that fits.
+- **IZPS2 on IZ2S.** Import the package from the [IZPS2 release page](https://github.com/byizmysh/IZPS2-emulator/releases/latest) through IZ2S App Library.
+- **IZtwiNS2 on IZ2S.** The catalog installs the NRO build. To install the IZA edition, import the package from the [IZtwiNS2 release page](https://github.com/byizmysh/IZtwiNS2/releases/latest) through IZ2S App Library.
 
 ## Catalog updates
 
