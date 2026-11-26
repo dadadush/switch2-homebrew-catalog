@@ -35,10 +35,10 @@ app	nxgallery	nro	2.0.0-switch2-1	NXGallery	iUltimateLP / wowilookgood	Media	Vie
 repository	https://github.com/wowilookgood/NXGallery
 file	20421866	86574515d2a5d61cbbb44411503ac888a2725375d9d864c8f0cec0efd3e9e0a2	launcher.nro
 github	https://github.com/wowilookgood/NXGallery/releases/download/2.0.0-switch2-1/NXGallery-hen.nro
-app	akira	nro	0.3.2	Akira	Chiaki-ng contributors	Media	Stream from your own PlayStation over Remote Play.
+app	akira	nro	1.0.3	Akira	Chiaki-ng contributors	Media	Stream from your own PlayStation over Remote Play.
 repository	https://github.com/chiaki-ng/akira-ounce
-file	24902240	820cf53c1b9774963f3ff1efff5d432708b165b0972964aa76f5c615c4b4ba85	launcher.nro
-github	https://github.com/chiaki-ng/akira-ounce/releases/download/v0.3.2/akira.nro
+file	23063548	5e146ffb09f92d2035344c19ad589a4d543ddb610a2ef82b77e986d0338269d5	launcher.nro
+github	https://github.com/chiaki-ng/akira-ounce/releases/download/v1.0.3/akira.nro
 app	ounce-donut	nro	1.0	Ounce Donut	Rix565	Games	A small animated ASCII donut demo for Switch 2.
 repository	https://github.com/Rix565/ouncedonut
 file	24994521	8f8c1cd79a2b21f0d57ae349b971bd35ebee8cf15400da62fe22208e8f07882f	launcher.nro
@@ -172,10 +172,10 @@ app	ppsspp-xitrix	nro	0.1.0	PPSSPP (XITRIX GameShare)	XITRIX / PPSSPP contributo
 repository	https://github.com/XITRIX/ppsspp-nx2
 file	66816508	9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3	launcher.nro
 github	https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro
-app	sw2ps2	nro	1.1.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
+app	sw2ps2	nro	1.2.0	SW2PS2	Rodpad / OunceSX2 contributors	Emulators	Early PlayStation 2 emulator for Switch 2 under kaiHEN, based on OunceSX2. Supply your own BIOS in /bios/ps2 and game dumps in /roms/ps2, or configure other folders. Includes per-game settings, save states and experimental Multitap support.
 repository	https://github.com/Rodpad/SW2PS2
-file	43681225	789b7d05fe7aaf3435be4cdd4dc01693edc88bf00f29ed8ec315fce147cb4737	launcher.nro
-github	https://github.com/Rodpad/SW2PS2/releases/download/v1.1.0/sw2ps2.nro
+file	43855477	4db53b54d2c61ab71897f492009f1a115aced89851b88b1914de5214a5a6ab6a	launcher.nro
+github	https://github.com/Rodpad/SW2PS2/releases/download/v1.2.0/sw2ps2.nro
 app	vita3k-nx2	nro	1.4.1	Vita3K-nx2	davidkalil10 / Vita3K contributors	Emulators	Experimental PS Vita emulator for Switch 2 using Vulkan and kaiHEN JIT. Launch with full application memory. Install firmware and fonts using the launcher or the upstream manual procedure; supply your own games and required licenses. Firmware and game data are not included.
 repository	https://github.com/davidkalil10/Vita3K-nx2
 file	78472912	d83b43b0a99cb644d83fb596f8c92a1e0a0003a200efbf36a4edefd65e53f52d	launcher.nro
