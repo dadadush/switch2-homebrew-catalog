@@ -33,6 +33,7 @@ USER_AGENT = "switch2-homebrew-catalog"
 VERSIONED_FILENAMES = {
     "blitbun": "blitbun-{version}.iza",
     "game-vault": "game-vault-v{digits}.nro",
+    "iztwins2": "IZtwiNS2-{version}.nro",
     "jksv-ns2": "JKSV-NS2-{version}.nro",
     "nxengine-evo": "Ounce-NXEngine-Evo-{core}.nro",
     "vacootube": "vacootube-{version}.iza",
