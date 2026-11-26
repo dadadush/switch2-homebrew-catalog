@@ -24,6 +24,8 @@ RELEASE_URL = re.compile(
     rf"https://github\.com/({SLUG}/{SLUG})/releases/download/({SLUG})/({SLUG})"
 )
 SHA256 = re.compile(r"[0-9a-f]{64}")
+PROJECT_URL = re.compile(rf"https://github\.com/({SLUG}/{SLUG})(?:/.*)?", re.IGNORECASE)
+FEATURED_OWNER = "byizmysh"
 COMPANION = re.compile(r"asset-([0-9a-f]{64})\.izdata")
 VERSION = re.compile(r"([0-9]+(?:\.[0-9]+)*)([-_.A-Za-z][A-Za-z0-9._-]*)?")
 USER_AGENT = "switch2-homebrew-catalog"
@@ -34,6 +36,7 @@ VERSIONED_FILENAMES = {
     "blitbun": "blitbun-{version}.iza",
     "game-vault": "game-vault-v{digits}.nro",
     "iztwins2": "IZtwiNS2-{version}.nro",
+    "izps2": "izps2-launcher-{version}.iza",
     "jksv-ns2": "JKSV-NS2-{version}.nro",
     "nxengine-evo": "Ounce-NXEngine-Evo-{core}.nro",
     "vacootube": "vacootube-{version}.iza",
@@ -138,9 +141,9 @@ def filename_for(app_id, name, current, version):
     return render(version) if name == render(current) else name
 
 
-def read_release(project, token):
+def read_api(path, token):
     request = Request(
-        f"https://api.github.com/repos/{project}/releases/latest",
+        f"https://api.github.com/{path}",
         headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
     )
     if token:
@@ -149,11 +152,10 @@ def read_release(project, token):
         return json.load(response)
 
 
-@cache
-def latest_release(project):
+def github_api(path):
     token = os.environ.get("GH_TOKEN")
     try:
-        return read_release(project, token)
+        return read_api(path, token)
     except HTTPError as error:
         with error:
             # An Actions installation token may have access only to this catalog repo.
@@ -166,12 +168,50 @@ def latest_release(project):
                     return None
                 raise
     try:
-        return read_release(project, None)
+        return read_api(path, None)
     except HTTPError as error:
         with error:
             if error.code == 404:
                 return None
             raise
+
+
+@cache
+def latest_release(project):
+    return github_api(f"repos/{project}/releases/latest")
+
+
+def github_project(build):
+    address = PROJECT_URL.fullmatch(build.repository.removeprefix("repository\t"))
+    if address:
+        return address[1].lower()
+    asset = RELEASE_URL.fullmatch(build.url)
+    return asset[1].lower() if asset else None
+
+
+@cache
+def repository_stars(project):
+    metadata = github_api(f"repos/{project}")
+    if metadata is None:
+        return -1
+    return metadata["stargazers_count"]
+
+
+def sort_by_stars(builds):
+    # Rank each app once so IZA and NRO builds with the same ID stay together.
+    rank = {}
+    for build in builds:
+        app_id, title = build.app[1], build.app[4]
+        if app_id in rank:
+            continue
+        project = github_project(build)
+        featured = project is not None and project.split("/", 1)[0] == FEATURED_OWNER
+        if featured:
+            rank[app_id] = (0, len(rank))
+        else:
+            stars = repository_stars(project) if project else -1
+            rank[app_id] = (1, -stars, title.casefold(), app_id)
+    return sorted(builds, key=lambda build: rank[build.app[1]])
 
 
 def release_asset(raw, project, tag):
@@ -300,7 +340,7 @@ def find_update(build):
     return Build(app, build.repository, files, main.url)
 
 
-def refresh_catalogs(directory, dry_run):
+def refresh_catalogs(directory, dry_run, sort_only=False):
     catalogs = {name: load_catalog(directory / name, header) for name, header in CATALOGS.items()}
     changes = {}
     for name, builds in catalogs.items():
@@ -309,13 +349,19 @@ def refresh_catalogs(directory, dry_run):
             app_id, kind, version = build.app[1:4]
             # Moader needs a matching resident and backend. The legacy Cheese
             # self-updater requires its original companion asset.
-            if app_id == "moader" or (app_id == "iz2s-cheese" and name == "catalog.tsv"):
+            if sort_only or app_id == "moader" or (app_id == "iz2s-cheese" and name == "catalog.tsv"):
                 updated.append(build)
                 continue
             candidate = find_update(build)
             if candidate != build:
                 print(f"{name}: {app_id}/{kind} {version} -> {candidate.app[3]}")
             updated.append(candidate)
+        try:
+            updated = sort_by_stars(updated)
+        except (OSError, HTTPException, ValueError, KeyError) as error:
+            if sort_only:
+                raise
+            print(f"{name}: keeping current order because GitHub stars could not be fetched ({error}).")
         if updated != builds:
             changes[name] = "\n".join([CATALOGS[name], *(line for build in updated for line in build.lines())]) + "\n"
     if changes and not dry_run:
@@ -324,15 +370,17 @@ def refresh_catalogs(directory, dry_run):
                 (Path(staging) / name).write_text(content, encoding="utf-8")
             for name in changes:
                 (Path(staging) / name).replace(directory / name)
-    print(f"Checked {latest_release.cache_info().misses} GitHub repositories. "
+    print(f"Checked releases for {latest_release.cache_info().misses} GitHub repositories "
+          f"and star counts for {repository_stars.cache_info().misses} repositories. "
           f"{len(changes)} catalog files {'would change' if dry_run else 'changed'}.")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Check releases without changing either catalog")
+    parser.add_argument("--sort-only", action="store_true", help="Sort the current entries without checking for new releases")
     args = parser.parse_args()
-    refresh_catalogs(CATALOG_DIR, args.dry_run)
+    refresh_catalogs(CATALOG_DIR, args.dry_run, args.sort_only)
 
 
 if __name__ == "__main__":
