@@ -46,14 +46,14 @@ app	chromium-nx	nro	0.2.0	Chromium NX (Switch 2)	shodowlo	Tools	Experimental Chr
 repository	https://github.com/shodowlo/chromium-nx
 file	39704030	68652106987d72abd3423b43fff5e4d5f1499ff167e8197c178559e49f0aeab2	launcher.nro
 github	https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx2.nro
-app	game-vault	nro	0.4.5	Game Vault	flex36ty / Game Vault contributors	Tools	Game and save backup, restore and file transfer utility for Switch 2. Requires the separately installed compatible kaiHEN fsipc-v1 runtime and SD helpers. This download updates only the app; follow the upstream runtime guide. Full backup/restore verification is still pending upstream.
-repository	https://github.com/flex36ty/switch2-gamevault
-file	2289863	d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43	launcher.nro
-github	https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro
 app	blacklist-tool	nro	1.1.0	blacklist-tool	s8n	Tools	System utility to inspect or modify the Switch 2 FunctionBlackList. Write operations persist across reboots and may affect Nintendo service access. Follow the upstream instructions. This is the latest release with a published Switch 2 NRO.
 repository	https://github.com/s8n/blacklist-tool
 file	477381	4f49a482668fa2560188c4cb409534e9c802a3e273d2e9a4fc057966f3b7d381	launcher.nro
 github	https://github.com/s8n/blacklist-tool/releases/download/v1.1.0/blacklist-tool-switch2.nro
+app	game-vault	nro	0.4.5	Game Vault	flex36ty / Game Vault contributors	Tools	Game and save backup, restore and file transfer utility for Switch 2. Requires the separately installed compatible kaiHEN fsipc-v1 runtime and SD helpers. This download updates only the app; follow the upstream runtime guide. Full backup/restore verification is still pending upstream.
+repository	https://github.com/flex36ty/switch2-gamevault
+file	2289863	d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43	launcher.nro
+github	https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro
 app	nx-torrent-player	nro	0.6.0	NX Torrent Player	shodowlo	Media	Native media player for Switch 2 with Stremio-style streaming features. This entry uses the dedicated NX2 binary; an internet connection and upstream setup may be required.
 repository	https://github.com/shodowlo/NX-torrent-player
 file	43724259	88ebc6e64373d5017d2f29ae04b44caca1dd8fbebe0fb7c0b806769735c9456c	launcher.nro
@@ -78,14 +78,14 @@ app	kaizhar	nro	2126.2-kaizhar3	Kaizhar	wowilookgood / Azahar team	Emulators	Uno
 repository	https://github.com/wowilookgood/kaizhar
 file	34447882	33ced15bae8b53cfbaaacca011175b3c41863dd8185b12dbab896e6e967cbb31	launcher.nro
 github	https://github.com/wowilookgood/kaizhar/releases/download/2126.2-kaizhar3/kaizhar.nro
-app	sw2transfer	nro	2.0.1	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
-repository	https://github.com/Rodpad/SW2Transfer
-file	21380645	e19b36a0c0d009853cac60c5aa96a9662891da5e3ee2aca57e7fd83fe2806d9c	launcher.nro
-github	https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.1/sw2transfer.nro
 app	kaidump	nro	1.0.5	KaiDump	BlafKing	Tools	Export your installed games, updates, DLC, ExeFS and RomFS to SD, FTP or USB. Requires kaiHEN 20261117b or newer and sufficient storage. Experimental; read the repository requirements before use.
 repository	https://github.com/BlafKing/KaiDump
 file	19828265	7bc870f90065c4ce5786b0ba11a0a5258bd6cd7189fe57ad0d67723740d5cff0	launcher.nro
 github	https://github.com/BlafKing/KaiDump/releases/download/1.0.5/KaiDump.nro
+app	sw2transfer	nro	2.0.1	SW2Transfer	Rodpad	Tools	Multi-connection file transfer and file management server for Switch 2. Use the upstream sw2xfer.py client on your PC; see the repository for setup.
+repository	https://github.com/Rodpad/SW2Transfer
+file	21380645	e19b36a0c0d009853cac60c5aa96a9662891da5e3ee2aca57e7fd83fe2806d9c	launcher.nro
+github	https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.1/sw2transfer.nro
 app	super-moonlight-nx2	nro	1.0.0	Super Moonlight NX2	davidkalil10 / Azkali	Media	Stream PC games from Sunshine over LAN or the built-in Tailscale tunnel. Requires a Sunshine host and kaiHEN 20261114c or newer. Select H.264 in Settings before streaming; the release notes report an AV1 startup issue.
 repository	https://github.com/davidkalil10/super-moonlight-nx2
 file	13822737	732efef01dae852adfffe2dfee9f027deaa38f2a3167501b1ca53654aef98328	launcher.nro
@@ -130,14 +130,14 @@ app	nxgallery	nro	2.0.0-switch2-1	NXGallery	iUltimateLP / wowilookgood	Media	Vie
 repository	https://github.com/wowilookgood/NXGallery
 file	20421866	86574515d2a5d61cbbb44411503ac888a2725375d9d864c8f0cec0efd3e9e0a2	launcher.nro
 github	https://github.com/wowilookgood/NXGallery/releases/download/2.0.0-switch2-1/NXGallery-hen.nro
-app	nhse	nro	4.2.0	NHSE	sh00kapic / NHSE contributors	Tools	Animal Crossing: New Horizons save editor for Switch 2. Close the game before editing; saves are backed up when opened and written when you confirm Save. Includes console and SD save editing; some desktop features are unavailable.
-repository	https://github.com/sh00kapic/nhse
-file	9690681	06325e61cf5753e972f8126dbaaaaff10c1db0f1ffcf37d9d8b6fa3213320b1d	launcher.nro
-github	https://github.com/sh00kapic/nhse/releases/download/v4.2.0/nhse.nro
 app	ouncecord	nro	1-beta	OunceCord	nyathea	Media	Experimental third-party Discord client for Switch 2 under kaiHEN. Supports sign-in with 2FA, messages, reactions and console capture sharing. Requires a Discord account and network access. Upstream warns that third-party clients conflict with Discord's terms and may put accounts at risk.
 repository	https://github.com/nyathea/OunceCord
 file	20947058	fd964ad6edcf075a0b5a22338caa181365379089ebe3513cc8d0260afe85ce60	launcher.nro
 github	https://github.com/nyathea/OunceCord/releases/download/v1-beta/OunceCord.nro
+app	nhse	nro	4.2.0	NHSE	sh00kapic / NHSE contributors	Tools	Animal Crossing: New Horizons save editor for Switch 2. Close the game before editing; saves are backed up when opened and written when you confirm Save. Includes console and SD save editing; some desktop features are unavailable.
+repository	https://github.com/sh00kapic/nhse
+file	9690681	06325e61cf5753e972f8126dbaaaaff10c1db0f1ffcf37d9d8b6fa3213320b1d	launcher.nro
+github	https://github.com/sh00kapic/nhse/releases/download/v4.2.0/nhse.nro
 app	toronja	nro	0.9.37	Toronja (Switch 2)	Olmectron / Azahar and Dekopon contributors	Emulators	Nintendo 3DS emulator fork with Switch 2 rendering improvements and experimental GameShare. Uses the dedicated Switch 2 build; provide your own game dumps. On first launch it can rename /switch/dekopon to /switch/toronja and move existing data; back up that folder if keeping both apps.
 repository	https://github.com/Olmectron/toronja
 file	33451020	8bf2a11853dfa1dcad1f5afe7c13f6f7fb375470283aac9339f4117273283b05	launcher.nro
