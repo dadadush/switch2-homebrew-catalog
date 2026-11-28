@@ -62,14 +62,14 @@ app	brewstore	nro	1.3.1	Brewstore	HerXayah	Tools	Homebrew catalog and downloader
 repository	https://github.com/HerXayah/brewstore
 file	967718	475481a2b2c938456d193e5233d41afe955f901c62912948ca5523530d1da963	launcher.nro
 github	https://github.com/HerXayah/brewstore/releases/download/1.3.1/brewstore.nro
-app	sw2nes	nro	2.15.1	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
-repository	https://github.com/Rodpad/SW2NES
-file	23191550	2a1def088f96ad7abbcfaace6348c52466910cb4230c67af6efded658960e8b0	launcher.nro
-github	https://github.com/Rodpad/SW2NES/releases/download/v2.15.1/sw2nes.nro
 app	kaidump	nro	1.0.5	KaiDump	BlafKing	Tools	Export your installed games, updates, DLC, ExeFS and RomFS to SD, FTP or USB. Requires kaiHEN 20261117b or newer and sufficient storage. Experimental; read the repository requirements before use.
 repository	https://github.com/BlafKing/KaiDump
 file	19828265	7bc870f90065c4ce5786b0ba11a0a5258bd6cd7189fe57ad0d67723740d5cff0	launcher.nro
 github	https://github.com/BlafKing/KaiDump/releases/download/1.0.5/KaiDump.nro
+app	sw2nes	nro	2.15.1	SW2NES	Rodpad	Emulators	Play your local NES and Famicom games on Switch 2. Includes save states and on-screen playback settings.
+repository	https://github.com/Rodpad/SW2NES
+file	23191550	2a1def088f96ad7abbcfaace6348c52466910cb4230c67af6efded658960e8b0	launcher.nro
+github	https://github.com/Rodpad/SW2NES/releases/download/v2.15.1/sw2nes.nro
 app	ppsspp-xitrix	nro	0.1.0	PPSSPP (XITRIX GameShare)	XITRIX / PPSSPP contributors	Emulators	Separate PPSSPP port for Switch 2 under kaiHEN. Includes experimental GameShare for local multiplayer with a second, unmodified Switch. Supply your own PSP games; see upstream for supported GameShare setup. This is distinct from davidkalil10's fork.
 repository	https://github.com/XITRIX/ppsspp-nx2
 file	66816508	9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3	launcher.nro
